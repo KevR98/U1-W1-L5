@@ -150,6 +150,7 @@ footer address {
 }
 
 .ultimariga {
+  box-sizing: border-box;
   padding: 2em;
   border-top: 1px solid white;
   font-size: 0.6em;
