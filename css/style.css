@@ -1,1 +1,157 @@
 /* Your styles here */
+body {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+}
+/* PARTE INIZIALE */
+header div {
+  background-color: black;
+}
+
+header div img {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+/* HEADER */
+
+nav {
+  padding: 2em;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav h1 {
+  color: #25a2c3;
+  font-size: 1.5rem;
+  font-family: Montserrat, "bold", sans-serif;
+  font-weight: bold;
+}
+
+nav p {
+  margin: 0.5em;
+  font-family: Montserrat, "bold", sans-serif;
+  line-height: 1.5em;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: Montserrat, "bold", bold;
+  font-weight: bold;
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+/* MAIN */
+
+/* Parte 1 */
+
+article {
+  line-height: 1.5em;
+}
+
+h2 {
+  font-weight: bold;
+  color: #25a2c3;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+article .parte1 {
+  padding: 2em;
+}
+
+.parte1 {
+  margin-bottom: 2em;
+}
+
+.parte1 img {
+  width: 100%;
+  border-radius: 200px;
+  margin-top: 1.5em;
+}
+
+/* Parte 2 */
+
+.parte2 {
+  background-color: #e22d0e;
+  padding: 2em;
+  color: white;
+}
+
+.parte2 h1 {
+  font-size: 1.65rem;
+  font-family: Montserrat, "bold", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.parte2 p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* ASIDE */
+
+aside img {
+  width: 100%;
+}
+
+.immagine1 {
+  padding: 2em;
+}
+
+.conteiner {
+  padding: 0.5em;
+}
+
+.bordo {
+  border: 1px solid #dee1e3;
+}
+
+h3 {
+  font-weight: bold;
+  color: #25a2c3;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+aside p {
+  font-size: 0.8rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+}
+
+.conteinerfooter {
+  padding: 2em;
+}
+
+footer h2,
+address {
+  color: white;
+}
+
+footer address {
+  padding: 2em;
+  font-size: 0.8em;
+}
+
+.ultimariga {
+  padding: 2em;
+  border-top: 1px solid white;
+  font-size: 0.6em;
+  color: white;
+}
