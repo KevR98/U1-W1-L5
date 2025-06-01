@@ -39,7 +39,7 @@ nav h1 {
 
 nav p {
   margin: 0.5em;
-  font-family: Montserrat, "bold", sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.5em;
 }
 
@@ -47,9 +47,13 @@ button {
   background-color: #f04c2f;
   font-family: Montserrat, "bold", bold;
   font-weight: bold;
-  width: 50%;
+  height: 40px;
+  width: 150px;
   color: white;
   text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
 }
 /* MAIN */
 
@@ -90,17 +94,27 @@ article .parte1 {
 
 .parte2 h1 {
   font-size: 1.65rem;
-  font-family: Montserrat, "bold", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   margin-bottom: 1em;
 }
 
+#mario {
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
 .parte2 p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: italic;
 }
 
 /* ASIDE */
+
+aside {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
 
 aside img {
   width: 100%;
@@ -108,14 +122,17 @@ aside img {
 
 .immagine1 {
   padding: 2em;
+  padding-top: 0em;
 }
 
 .conteiner {
   padding: 0.5em;
+  margin-bottom: 30px;
 }
 
 .bordo {
   border: 1px solid #dee1e3;
+  border-radius: 5px;
 }
 
 h3 {
@@ -136,7 +153,7 @@ footer {
 }
 
 .conteinerfooter {
-  padding: 2em;
+  padding: 1em;
 }
 
 footer h2,
@@ -144,8 +161,17 @@ address {
   color: white;
 }
 
+address {
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+.conteinerfooter h2 {
+  font-size: 2rem;
+}
+
 footer address {
-  padding: 2em;
+  padding: 1em;
   font-size: 0.8em;
 }
 
